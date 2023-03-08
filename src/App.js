@@ -4,16 +4,16 @@ import "./App.css";
 import AllRoutes from "./Components/AllRoutes";
 
 import Victor from "./Components/pratice/Victor";
-
-
 import Olami from "./Components/pratice/Olami";
+import Judith from "./Components/pratice/judith";
 
 function App() {
   return (
     <div>
       <AllRoutes />
-       <Victor />
+      <Victor />
       <Olami />
+      <Judith />
     </div>
   );
 }

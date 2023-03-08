@@ -29,7 +29,7 @@ const Judith = () => {
   );
 };
 
-export default git;
+export default Judith;
 
 const Container = styled.div``;
 const Wrapper = styled.div``;
