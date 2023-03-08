@@ -4,22 +4,16 @@ import "./App.css";
 import AllRoutes from "./Components/AllRoutes";
 import Victor from "./Components/pratice/victor";
 
-import './App.css';
+import "./App.css";
 
-import Olami from './Components/pratice/Olami';
-
-
+import Olami from "./Components/pratice/olami";
 
 function App() {
   return (
-    <div>
-
-     
+    <div style={{ overflowX: "hidden" }}>
+      <AllRoutes />
+      <Olami />
       <Victor />
-
-   <AllRoutes /> 
-   <Olami />
-
     </div>
   );
 }
