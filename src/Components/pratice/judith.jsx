@@ -6,7 +6,7 @@ const Judith = () => {
     <div>
       <Container>
         <Wrapper>
-          <H>Seraphina Pearl</H>
+          <H>Seraphina Pearl this is judithn</H>
           <Text>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam dolor
             ea optio, incidunt tenetur voluptatum! Quidem voluptatem quam alias
