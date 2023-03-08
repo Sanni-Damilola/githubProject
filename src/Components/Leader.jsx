@@ -1,28 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
+import img from "./image/2fc7b150-welcome-screen-lp_10na0gl0n60gl002000028.png";
 
 const Leader = () => {
   return (
     <Container>
-        <Right>
-            <Wrap>
-                <span>
-                  hey, i'm a sample typeform 
-                </span>
-                <button>
-                    show me
-                </button>
-            </Wrap>
-        </Right>
-        <Left />
+      <Wrapper>
+        <Left src={img} />
+      </Wrapper>
     </Container>
-  )
+  );
 }
 
 export default Leader
 
 const Container = styled.div`
 display: flex;
+width: 100%;
 height: 600px;
 justify-content: center;
 align-items: center;
@@ -35,6 +29,7 @@ const Right = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px 0px 0px 10px;
 `;
 
 
@@ -45,5 +40,18 @@ display: flex;
 justify-content: center;
 align-items: center;
 `;
-const Left = styled.img``;
+const Left = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 10px 10px 0px;
+`;
+
+const Wrapper = styled.div`
+display: flex;
+width: 60%;
+height: 100%;
+justify-content: center;
+align-items: center;
+`
 
