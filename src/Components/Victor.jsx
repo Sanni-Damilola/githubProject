@@ -6,10 +6,6 @@ const Victor = () => {
     <div>
       <Container>
         <Wrapper>
-          <Header>
-            <Logo>Typeform</Logo>
-            <button>Sign In</button>
-          </Header>
           <br />
           <br />
           <br />
