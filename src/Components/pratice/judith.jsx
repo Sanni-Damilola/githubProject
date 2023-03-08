@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const git = () => {
+const Judith = () => {
   return (
     <div>
       <Container>
