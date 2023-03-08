@@ -5,7 +5,7 @@ const Judith = () => {
   return (
     <Container>
       <Wrapper>
-        <h1>TypeForm</h1>
+        <h1>TypeForm.</h1>
         <button>Sign in</button>
       </Wrapper>
     </Container>
@@ -24,7 +24,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 100%;
   height: 70px;
-  background-color: grey;
+  /* background-color: grey; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,6 +32,7 @@ const Wrapper = styled.div`
   h1 {
     margin: 0;
     margin-left: 20px;
+    font-weight: 400;
   }
   button {
     margin: 0;
@@ -42,6 +43,14 @@ const Wrapper = styled.div`
     border: none;
     font-size: 16px;
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: #000;
+    color: #ffff;
+
+    :hover {
+      cursor: pointer;
+      background-color: #ffff;
+      color: #000;
+      transition: all 350ms;
+    }
   }
 `;
