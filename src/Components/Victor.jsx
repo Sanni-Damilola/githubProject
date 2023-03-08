@@ -10,12 +10,18 @@ const Victor = () => {
             <Logo>Typeform</Logo>
             <button>Sign In</button>
           </Header>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <Hero>
             <MainPart>The no-code landing page of your dreams</MainPart>
             <SecondPart>
               Rustle up a beautiful landing page in minutes, and rake in the
               leads like a boss.
             </SecondPart>
+            <button>Get started - it's free</button>
           </Hero>
         </Wrapper>
       </Container>
@@ -54,11 +60,18 @@ const Logo = styled.div`
 `;
 const Hero = styled.div`
   width: 100%;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  button {
+    width: 150px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+  }
 `;
 const MainPart = styled.div`
   width: 60%;
