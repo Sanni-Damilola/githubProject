@@ -1,11 +1,12 @@
 import React from 'react'
 
-const olami = () => {
+const Olami = () => {
   return (
     <div>
+      my name is Olami
       
     </div>
   )
 }
 
-export default olami
+export default Olami

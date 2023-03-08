@@ -1,6 +1,6 @@
 import React from 'react'
 
-const victor = () => {
+const Victor = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const victor = () => {
   )
 }
 
-export default victor
+export default Victor
