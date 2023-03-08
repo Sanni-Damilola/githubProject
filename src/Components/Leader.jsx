@@ -19,8 +19,17 @@ const Leader = () => {
 
 export default Leader
 
-const Container = styled.div``
-const Right = styled.div``;
+const Container = styled.div`
+display: flex;
+height: 600px;
+justify-content: center;
+align-items: center;
+`
+const Right = styled.div`
+  width: 50%;
+  background-color: #026451;
+  height: 100%;
+`;
 const Wrap = styled.div``;
 const Left = styled.img``;
 
