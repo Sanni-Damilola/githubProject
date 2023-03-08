@@ -2,18 +2,17 @@
 
 import "./App.css";
 import AllRoutes from "./Components/AllRoutes";
+
 import Victor from "./Components/pratice/Victor";
 
-import "./App.css";
 
 import Olami from "./Components/pratice/Olami";
 
 function App() {
   return (
     <div>
-      <Victor />
-
       <AllRoutes />
+       <Victor />
       <Olami />
     </div>
   );
