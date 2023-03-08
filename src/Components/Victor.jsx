@@ -17,7 +17,7 @@ const Victor = () => {
               Rustle up a beautiful landing page in minutes, and rake in the
               leads like a boss.
             </SecondPart>
-            <button>Get started - it's free</button>
+            <button>Get started _ it's free</button>
           </Hero>
         </Wrapper>
       </Container>
