@@ -19,6 +19,7 @@ const Victor = () => {
   );
 };
 
+
 export default Victor;
 
 const Container = styled.div`
@@ -39,3 +40,4 @@ const Description = styled.div`
   font-weight: 500;
   font-family: cursive;
 `;
+
