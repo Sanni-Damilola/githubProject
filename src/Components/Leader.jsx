@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Judith = () => {
+const Leader = () => {
   return (
     <div>
-      Judith
+      Leader
     </div>
   )
 }
 
-export default Judith
+export default Leader
