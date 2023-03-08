@@ -33,6 +33,7 @@ const Wrapper = styled.div`
     margin: 0;
     margin-left: 20px;
     font-weight: 400;
+    color: red;
   }
   button {
     margin: 0;
