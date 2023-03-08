@@ -1,12 +1,13 @@
 // import logo from './logo.svg';
-import './App.css';
-import AllRoutes from './Components/AllRoutes';
-
+import "./App.css";
+import AllRoutes from "./Components/AllRoutes";
+import Victor from "./Components/pratice/victor";
 
 function App() {
   return (
     <div>
-   <AllRoutes />
+      <AllRoutes />
+      <Victor />
     </div>
   );
 }
