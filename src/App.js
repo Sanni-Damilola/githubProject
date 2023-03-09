@@ -5,7 +5,7 @@ import AllRoutes from "./Components/AllRoutes";
 
 import Victor from "./Components/pratice/Victor";
 import Olami from "./Components/pratice/Olami";
-import Judith from "./Components/pratice/judith";
+import Judith from "./Components/pratice/Judith";
 
 function App() {
   return (
